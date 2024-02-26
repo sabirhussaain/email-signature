@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Signature</title>
+<style>
+  /* Reset CSS */
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  /* Signature container */
+  .signature {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 5px;
+    font-size: 12px;
+    line-height: 1.4;
+      }
+  /* Warmly Regards */
+  .warmly-regards {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Segoe Script', cursive; /* Use Segoe Script font */
+            font-size: 16px;
+            font-weight: normal; /* Ensure it's not bold */
+            color: #333333; /* Dark color */
+  }
+  /* Container for image, contact information, and logo */
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  /* Image section */
+  .image-section {
+    position: relative;
+
+  }
+
+  .image-section img {
+    width: 80px;
+    height: 110px;
+   /* border-radius: 50%; */
+  }
+.image-section::after {
+    content: "";
+    position: absolute;
+    top: 6%;
+    bottom: 0;
+    right: -10px; /* Adjust as needed */
+    width: 2px; /* Thickness of the line */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #102a3be0; /* Color of the line */
+  }
+
+  hr {
+            border: none; /* Remove default border */
+            border-top: 1.5px solid #102a3be0; /* Add a solid black line */
+            margin: 1px 0; /* Add space above and below the line */
+            width: 70%;
+            margin: auto;
+        }
+  .seprater{
+    border: none; /* Remove default border */
+            border-top: 2px solid #102a3be0; /* Add a solid black line */
+            margin: 1px 0px; /* Add space above and below the line */
+            width: 100%;
+
+  }
+
+  /* Personal and company information */
+  .info-section p {
+    margin: 5px 0;
+    text-decoration: none;
+  }
+  /* Tabs */
+  .tab {
+    display: inline-block;
+    margin-right: 0px;
+    padding: 0px 5px;
+    text-decoration: none;
+    
+  }
+  .tab img{
+    vertical-align: middle;
+      }
+
+  /* Company logo */
+  .logo-section img {
+    max-width: 250px;
+    height: auto;
+  }
+   a {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* Social media section */
+  .social-media-section {
+    text-align: center;
+    margin-bottom: -5px;
+    height: auto;
+    background-color: #102a3be0;
+  }
+  .social-media-section a {
+    display: inline-block;
+    margin: 3px 5px;
+    vertical-align: middle;
+  }
+  .social-media-section {
+
+  }
+
+  /* Disclaimer section */
+  .disclaimer-section {
+    text-align: left;
+    font-size: 12px;
+    color: gray;
+    text-align: justify;
+  }
+  
+</style>
+</head>
+<body>
+  <div class="signature">
+    <!-- <div class="warmly-regards">Warmly Regards,</div> -->
+    <div class="contact-container">
+      <div class="image-section">
+        <img src="profile_3.jpg" alt="Profile Image">
+      </div>
+      
+      <div class="info-section">
+        <p style="font-weight:600; color: #102a3be0; font-size:1.6em; font-family: Montserrat, sans-serif;"><span class="icon"></span> OKSANA STRAND</p>
+        <p><span class="icon"></span> Realtor® CalDRE Lic.01360917</p>
+        <hr>
+        <p><span class="tab"><img src="phone.png" alt="Phone Icon" width="14px" height="12px"></span><a href="tel:+818 321 2727">818.321.2727</a> </p>
+        <p><span class="tab"><img src="email.png" alt="Email Icon" width="14px" height="12px"></span> <a href="mailto:calwestrealtor@gmail.com">calwestrealtor@gmail.com</a></p>
+        <p><span class="tab"><img src="website.png" alt="Website Icon" width="14px" height="12px"></span> <a href="https://www.calwestrealtor.com/" target="_blank">www.calwestrealtor.com</a></p>
+        
+        <!-- <p style=" font-size: 10px;"><span class="tab"><img src="location.png" alt="Address Icon" width="14px" height="12px"></span> Park Regency Realty 10146 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Balboa Blvd Granada Hills</p> -->
+      </div>
+  
+      <div class="logo-section">
+        <img src="newlogo.gif" alt="Company Logo" width="165px" height="165px">
+      </div>
+    </div>
+    <div class="social-media-section">
+      <a href="social_media_link_4" target="_blank"><img src="follow_me.png" alt="4" style="width: 70px; height: 25px;"></a>
+      <a href="https://www.instagram.com/calwestrealtor/" target="_blank"><img src="instagram1.png" alt="3" style="width: 70px; height: 25px;"></a>
+      <a href="https://www.calwestrealtor.com/" target="_blank"><img src="website1.png" alt="5" style="width: 70px; height: 25px;"></a>
+      <a href="https://www.facebook.com/valley4sale" target="_blank"><img src="facebook1.png" alt="1" style="width: 70px; height: 25px;"></a>
+      <a href="https://www.youtube.com/@CalwestRealtor/shorts" target="_blank"><img src="youtube1.png" alt="2" style="width: 70px; height: 25px;"></a>
+    </div>
+   <!-- <hr class="seprater"> --> 
+        <div class="home_image">
+      <img src="photoBar.png" alt="PhotoBar" width="450px" height="45px">
+    <div class="disclaimer-section">
+      <p style="font-size: 10px; margin-top: 1px;"> <b style="font-weight:600; text-transform: uppercase">Privacy disclaimer:</b> The content of this email message with attachment(s) is confidential for the addressee. It may be legally protected from disclosure. Please disregard & delete it immediately if you're not the intended recipient.</p>
+
+    </div>
+
+    
+    </div>
+</body>
+</html>
